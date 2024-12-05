@@ -3,9 +3,10 @@ import random
 import time
 from datetime import datetime
 
+# import confluent_kafka
 from confluent_kafka import Producer
 
-from src.data_model import Dataset
+from data_model import Dataset
 
 if __name__ == "__main__":
     # Get kafka connection string
