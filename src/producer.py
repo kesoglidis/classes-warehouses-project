@@ -7,7 +7,6 @@ from datetime import datetime, timezone
 # import confluent_kafka
 from confluent_kafka import Producer
 
-from data_model import Dataset
 from data_model import get_data
 
 if __name__ == "__main__":
