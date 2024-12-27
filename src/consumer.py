@@ -8,7 +8,7 @@ if __name__ == "__main__":
     # Get kafka connection string
     KAFKA_BROKER = os.getenv("KAFKA_BROKER", "localhost:9092")
     # Get kafka topic
-    KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "temperature")
+    KAFKA_TOPIC = os.getenv("KAFKA_TOPIC", "caiso_fuel_mix")
     # Conf for kafka connection
     conf = {'bootstrap.servers': KAFKA_BROKER,'group.id': 'myconsumer'}
     # Create the producer
